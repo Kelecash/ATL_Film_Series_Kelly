@@ -1,0 +1,129 @@
+.covid-19_background {
+    background-color: #2E2E3A;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    color: white;
+    font-size: 32pt;
+    font-weight: normal;
+}
+.display-4 {
+    font-size: 32pt;
+    font-weight: normal;
+}
+.submission-hero-image{
+    background-image: url(../images/denise-jans-Lq6rcifGjOU-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    color: white;
+}
+
+.hero-image-title{
+    margin-top: 30px;
+}
+
+.submission-container{
+    width: 60%;
+    min-width: 320px;
+    text-align: center;
+}
+
+/* .Submission-txt-div{
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    background-color: #ededed; 
+     text-align: center; 
+} */
+
+.Submission-title{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.Submission-txt{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.Submission-btn{
+    border-radius: 10px;
+    height: 3rem;
+    background-color: #C23936 ;
+    color: white;
+    border-color: transparent;
+    margin: 15px;
+    /* margin-left: 4rem ; */
+    padding-left: 2em;
+    padding-right: 2em;
+   
+}
+.submission-award-card {
+    max-height: 500px;
+    padding: 5%;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: white;
+}
+
+.Submission-title{
+    color: white;
+}
+
+.submission-award-card-body{
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+#guidelines {
+    margin: auto;
+}
+
+#guidelines h2 {
+    text-align: center !important;
+    padding: 15px;
+}
+
+#horrorfest-submissions {
+    background-image: url(../images/horror_about.jpg);
+    background-size: cover;
+}
+
+#docufest-submissions {
+    background-image: url(../images/docufest_about.jpg);
+    background-size: cover;
+}
+
+#auff-submissions {
+    background-image: url(../images/auff_about.jpg);
+    background-size: cover;
+}
+
+#shortsfest-submissions {
+    background-image: url(../images/shortsfest_about.jpg);
+    background-size: cover;
+}
+
+.card-title {
+    font-size: 18pt;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+
+
+@media (min-width: 768px) {
+    .submission-container{
+        width: 80%;
+    }
+
+    .card-title {
+        font-size: 16pt;
+        font-weight: bold;
+        font-family: 'Mukta Mahee', sans-serif;
+    }
+
+  }

@@ -1,0 +1,79 @@
+.heroimage{
+    width: 100% !important;
+    object-fit: cover;
+    max-height: 30% !important;
+    
+
+
+}
+
+.hero-image-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 32pt;
+    color: white;
+    position: absolute;
+    /* margin-left: 37%; */
+    margin-top: 13%;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.bigSection{
+  margin-left: 10%;
+  margin-right: 10%;
+  /* background-color: #ededed; */
+}
+
+.bigSection-2{
+    /* margin-left: 2rem; */
+  margin-right: 2rem;
+}
+
+.ticket-grid .row{
+    justify-content: center;
+}
+
+.ticket-grid .card{
+    /* margin-left: 20%; */
+    margin-top: 10%;
+    width: 20rem;
+    
+}
+
+.ticket-grid .card-body{
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    background-color:#2e2e3a;
+    border-color:#ededed;
+    border-radius: 10px;
+}
+
+.ticket-grid .card-ticket{
+    font-family:  'Mukta Mahee', sans-serif;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.freeway-btn{
+    /* margin-left: 3%; */
+    background-color: #2e6de2;
+    color: white;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+    /* border-radius: 10px; */
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .heroimage{
+        max-height: 40%;
+    }
+    .hero-image-title{
+        font-size: 30px;
+    }
+  }

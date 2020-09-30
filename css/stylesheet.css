@@ -1,0 +1,474 @@
+/* Start Page Styles */
+h1, .h1 {
+    font-size: 32pt;
+    font-family: 'Playfair Display', serif;
+    color: #2E2E3A;
+}
+h2, .h2 {
+    font-size: 20pt;
+    font-family: 'Playfair Display', serif;
+    color: #2E2E3A;
+}
+h3, .h3 {
+    font-size: 16pt;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 100 !important;
+    color: #2E2E3A;
+}
+
+h4, .h4 {
+    font-size: 12pt !important;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 100 !important;
+    color: #2E2E3A;
+}
+
+p{
+    font-size: 12pt;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 200; 
+    color: #2E2E3A;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.logo{
+    height: 50px;
+    padding: 0 0 10px;
+}
+/* End Pages Styles */
+
+/* Start Navigation Styling */
+.navigation {
+    height: 70px;
+    background: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 2000;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.brand {
+    position: absolute;
+    padding-left: 20px;
+    float: inline-start;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    width: fit-content;
+    height: 70px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 0 20px;
+    line-height: 70px;
+    background: #ffffff;
+    color: #2E2E3A;
+    text-decoration: none;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #FBAE56;
+    color: #2E2E3A;
+    text-decoration: none;
+}
+
+nav a:not(:only-child):after {
+    padding-left: 4px;
+    content: ' ▾'
+}
+
+.nav-dropdown {
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    display: none;
+}
+
+.nav-dropdown li {
+    min-width: 190px;
+    z-index: 1000;
+}
+
+.nav-dropdown a {
+    padding: 15px;
+    line-height: 20px;
+    z-index: 1000;
+}
+
+.nav-mobile{
+    /*display: none;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ffffff;
+    height: 70px;
+    width: 70px;
+    z-index: 1000;
+}
+/* End Navigation Styling */
+
+/* Hero Image Styles */
+.hero-image{
+    height: 500px;
+    padding: 30px;
+}
+
+.hero-image, h1{
+    text-align: center;
+}
+
+.hero-content {
+    width: 75%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    margin-bottom: 10%;
+}
+
+.herocard {
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+/* Hero Image Styles End */
+
+/* Archive Pages - Start CSS*/
+.archive-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;;
+    margin: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.archivecard {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.archivecard-text {
+    min-height: fit-content;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    grid-row: 2 / span 1;
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* AUFF Archive */
+#auff-hero {
+    background-image: url(../images/auff-archive-2019.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#auff-hero h1 {
+    color: white;
+}
+
+#auff-2018 {
+    background-image: url(../images/auff-archive-2018.png);
+    background-position: center;
+    
+}
+
+#auff-2017 {
+    background-image: url(../images/auff-archive-2017.png);
+}
+
+#auff-2016 {
+    background-image: url(../images/auff-archive-2016.png);
+    background-position: right;
+}
+
+#auff-2015 {
+    background-image: url(../images/auff-archive-2015.png);
+    background-position: right;
+}
+
+#auff-2014 {
+    background-image: url(../images/auff-archive-2014.png);
+    background-position: top;
+}
+
+/* Docufest Archive */
+#docufest-hero {
+    background-image: url(../images/docufest-hero.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#docufest-hero h1 {
+    color: white;
+}
+
+#docufest-2018 {
+    background-image: url(../images/docufest-2018.png);
+    background-position: bottom;
+}
+
+#docufest-2017 {
+    background-image: url(../images/docufest-2017.png);
+    background-position: bottom;
+}
+
+#docufest-2016 {
+    background-image: url(../images/docufest-2016.png);
+    background-position: top;
+}
+
+#docufest-2015 {
+    background-image: url(../images/docufest-2015.png);
+}
+
+#docufest-2014 {
+    background-image: url(../images/docufest-2014.png);
+    background-position: right;
+}
+
+/* Horror Fest Archive */
+#horrorfest-hero {
+    background-image: url(../images/horrorfest-hero.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#horrorfest-hero h1 {
+    color: white;
+}
+
+#horrorfest-2018 {
+    background-image: url(../images/horrorfest-2018.png);
+}
+
+#horrorfest-2017 {
+    background-image: url(../images/horrorfest-2017.png);
+}
+
+#horrorfest-2016 {
+    background-image: url(../images/horrorfest-2016.png);
+}
+
+#horrorfest-2015 {
+    background-image: url(../images/horrorfest-2015.png);
+}
+
+#horrorfest-2014 {
+    background-image: url(../images/horrorfest-2014.png);
+}
+
+/* Shortsfest Archive */
+#shortsfest-hero {
+
+}
+
+#shortsfest-2018 {
+
+}
+
+#shortsfest-2017 {
+
+}
+
+#shortsfest-2016 {
+
+}
+
+#shortsfest-2015 {
+
+}
+
+#shortsfest-2014 {
+
+}
+
+/* Media queries start here */
+@media only screen and (max-width: 850px) {
+
+
+/* Start Mobile Page Styles */
+h1, .h1 {
+    font-size: 20pt;
+    font-family: 'Playfair Display', serif;
+    color: #2E2E3A;
+}
+h2, .h2 {
+    font-size: 18pt;
+    font-family: 'Playfair Display', serif;
+    color: #2E2E3A;
+}
+h3, .h3 {
+    font-size: 16pt !important;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 100 !important;
+    color: #2E2E3A;
+}
+
+h4, .h4 {
+    font-size: 14pt !important;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 100 !important;
+    color: #2E2E3A;
+}
+
+p{
+    font-size: 14pt;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 200; 
+    color: #2E2E3A;
+}
+/* End Mobile Page Styles */
+
+/* Start Mobile Navigation Styling */
+.nav-mobile{
+    display: block;
+    z-index: 1000
+}
+
+nav {
+    width: 100%;
+    padding: 70px 0 0px;
+}
+
+nav ul{
+    display: none;
+}
+
+nav li{
+    float: none;
+}
+
+nav a{
+    padding: 15px;
+    line-height: 20px;
+}
+
+nav ul li a{
+    padding-left: 30px;
+}
+
+.nav-dropdown{
+    position: static;
+}
+
+#nav-toggle {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+
+/* Start hamburger menu animation */
+#nav-toggle span, #nav-toggle span::before, #nav-toggle span::after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 3px;
+    width: 35px;
+    background: #2E2E3A;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+
+#nav-toggle span::before {
+    top: -10px;
+}
+
+#nav-toggle span::after {
+    bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span::before, #nav-toggle span::after {
+    transition: all 500ms ease-in-out;
+}
+
+#nav-toggle.active span {
+    background-color: transparent;
+}
+
+#nav-toggle.active span::before, #nav-toggle.active span::after {
+    top: 0;
+}
+
+#nav-toggle.active span::before {
+    transform: rotate(45deg);
+}
+
+#nav-toggle.active span::after {
+    transform: rotate(-45deg);
+}
+/* End hamburger menu animation */
+/* End mobile navigation styling */
+
+/* Archive Pages - Mobile */
+
+.hero-content {
+    width: 60%%;
+}
+
+.archive-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0px;
+    row-gap: 0px;
+}
+
+.archivecard {
+    min-height: 50vh;
+    display: flex;
+}
+
+.archivecard-text {
+    height: 100px;
+    width: 60%;
+    padding: 15px;
+    margin: auto;
+    grid-row: 2 / span 1;
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 850px) {
+
+}

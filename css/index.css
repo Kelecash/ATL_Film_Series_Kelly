@@ -1,0 +1,146 @@
+
+.row{
+    margin: 0px
+}
+
+.carousel-image{
+    height: 500px;
+    object-fit: cover;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+}
+
+.carousel-caption{
+    text-decoration: none;
+    font-family: 'Mukta Mahee', sans-serif;
+    color: white;
+}
+
+.main-title{
+    width: 100%;
+    color: white;
+    position: absolute;
+    font-size: 32pt;
+    margin: auto;
+    padding: 5% 20%;
+    text-align: center;
+}
+.card-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 7%;
+}
+
+#horror-homepage {
+    background-image: url(../images/zorik-d-1hqKq6uJjUM-unsplash.jpg);
+    background-size: cover;
+}
+
+#home-image{
+    background-image: url(../images/Screen\ Shot\ 2020-09-22\ at\ 11.40.38\ AM.png);
+    background-size: cover;
+    width: 100%;
+}
+.card-text{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.card{
+    border-color: transparent;
+    border-radius: 0px;
+}
+
+.card-body{
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    height: auto;
+    margin: 15%;
+}
+.footer{
+    background-color:#2E2E3A;
+    padding: 50px;
+    width: 100%;
+}
+
+.footer-logo{
+ margin-top: 4%;
+margin-left: 45%;
+width: 8%;
+}
+
+.footer-card{
+    background-color:#2E2E3A;
+    margin-top: 6%;
+    text-align: center;
+}
+
+
+.footer-toptext-header{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-top: 0%;
+
+}
+
+.footer-toptext{
+    color: white;
+    font-family: 'Mukta Mahee', sans-serif;
+    margin-top: 0%;
+
+}
+
+.form-control{
+    width: 35%;
+    margin-left: 70%;
+}
+
+.signup{
+    margin-right: 70%;
+    background-color: #2E6DE2;
+    color: white;
+    font-family: 'Mukta Mahee', sans-serif;
+    width: 100px;
+    text-align: center;
+    /* border-radius: 10px; */
+}
+
+.footer-text{
+    color: white;
+    font-family: 'Mukta Mahee', sans-serif;
+    margin-top: 10%;
+    
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .form-control{
+        width: 100%;
+        margin-left: 10%;
+
+    }
+
+    .footer-logo{
+        margin-top: 4%;
+       margin-left: 45%;
+       width: 13%;
+       }
+
+    .main-title {
+        width: 100%;
+        color: white;
+        position: absolute;
+        margin: auto;
+        padding: 10% 20%;
+        text-align: center;
+    }
+
+    .footer-toptext-header{
+        font-size: 18px;
+    }
+  }
