@@ -2,49 +2,77 @@
 h1, .h1 {
     font-size: 32pt;
     font-family: 'Playfair Display', serif;
-    color: #2E2E3A;
+    color: #4D5560;
 }
 h2, .h2 {
     font-size: 20pt;
     font-family: 'Playfair Display', serif;
-    color: #2E2E3A;
+    color: #4D5560;
 }
 h3, .h3 {
     font-size: 16pt;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 100 !important;
-    color: #2E2E3A;
+    color: #4D5560;
 }
 
 h4, .h4 {
     font-size: 12pt !important;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 100 !important;
-    color: #2E2E3A;
+    color: #4D5560;
 }
 
 p{
     font-size: 12pt;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 200; 
-    color: #2E2E3A;
+    color: #4D5560;
 }
 body{
     margin: 0;
     width: 100%;
+    background-color: #32363E;
+}
+
+p a {
+    color: #646C7D;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+p a:hover{
+    background-color: #FFC675;
+    color: white;
+    font-weight: 100;
+    text-shadow: 1px 1px #9C5300;
+}
+
+a p {
+    color: #646C7D;
+    font-weight: 100;
+    text-decoration: underline;   
+}
+
+a p:hover{
+    background-color: #FFC675;
+    color: white;
+    font-weight: 100;
+    text-shadow: 1px 1px #9C5300;
 }
 
 .logo{
+    background-color: none;
     height: 50px;
     padding: 0 0 10px;
 }
+
 /* End Pages Styles */
 
 /* Start Navigation Styling */
 .navigation {
     height: 70px;
-    background: white;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    background: #4D5560;
     position: relative;
     z-index: 2000;
 }
@@ -83,8 +111,8 @@ nav a {
     display: block;
     padding: 0 20px;
     line-height: 70px;
-    background: #ffffff;
-    color: #2E2E3A;
+    background: #4D5560;
+    color: white;
     text-decoration: none;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 100;
@@ -92,9 +120,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #FBAE56;
-    color: #2E2E3A;
+    background-color: #FFC675;
+    color: #575757;
+    font-weight: 100;
     text-decoration: none;
+    text-shadow: none;
 }
 
 nav a:not(:only-child):after {
@@ -125,16 +155,74 @@ nav a:not(:only-child):after {
     position: absolute;
     top: 0;
     right: 0;
-    background: #ffffff;
+    background: transparent;
     height: 70px;
     width: 70px;
     z-index: 1000;
 }
 /* End Navigation Styling */
 
+/*Hero Video Styles*/
+.background-video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.page-hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-video-content {
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+}
+
+.hero-container h1{
+    padding: 100px 50px 0px;
+    padding: 100px;
+    color: white;
+    opacity: 1;
+}
+
+.hero-container ul{
+    list-style: none;
+    color: white;
+    font-family: 'Mukta Mahee', sans-serif;
+    text-align: center;
+    margin: auto;
+    font-weight: 100;
+    padding: 1% 9%;
+}
+
+.hero-container {
+    min-height: 500px;
+}
+
+#home-container {
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+}
+
+#home-container {
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Hero Image Styles */
 .hero-image{
-    height: 500px;
+    height: fit-content;
     padding: 30px;
 }
 
@@ -324,34 +412,34 @@ nav a:not(:only-child):after {
 
 /* Start Mobile Page Styles */
 h1, .h1 {
-    font-size: 20pt;
+    font-size: 24pt;
     font-family: 'Playfair Display', serif;
-    color: #2E2E3A;
+    color: #4D5560;
 }
 h2, .h2 {
     font-size: 18pt;
     font-family: 'Playfair Display', serif;
-    color: #2E2E3A;
+    color: #4D5560;
 }
 h3, .h3 {
     font-size: 16pt !important;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 100 !important;
-    color: #2E2E3A;
+    color: #4D5560;
 }
 
 h4, .h4 {
     font-size: 14pt !important;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 100 !important;
-    color: #2E2E3A;
+    color: #4D5560;
 }
 
 p{
     font-size: 14pt;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 200; 
-    color: #2E2E3A;
+    color: #4D5560;
 }
 /* End Mobile Page Styles */
 
@@ -401,7 +489,7 @@ nav ul li a{
     border-radius: 1px;
     height: 3px;
     width: 35px;
-    background: #2E2E3A;
+    background: white;
     position: absolute;
     display: block;
     content: '';

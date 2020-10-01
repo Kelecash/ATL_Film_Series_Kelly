@@ -8,6 +8,7 @@
     object-fit: cover;
     font-size: 80px;
     font-family: 'Playfair Display', serif;
+    overflow: visible;
 }
 
 .carousel-caption{
@@ -29,7 +30,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 20pt;
     text-align: center;
-    margin-top: 7%;
+    padding: 15px;
 }
 
 #horror-homepage {
@@ -44,24 +45,23 @@
 }
 .card-text{
     font-family: 'Mukta Mahee', sans-serif;
-    font-size: 12pt;
     text-align: center;
-    margin-top: 7%;
 }
 
 .card{
     border-color: transparent;
     border-radius: 0px;
+    background: #32363E;
 }
 
 .card-body{
     background-color: white;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
     height: auto;
-    margin: 15%;
+    margin: 5%;
 }
 .footer{
-    background-color:#2E2E3A;
+    background-color: #4D5560;
     padding: 50px;
     width: 100%;
 }
@@ -73,7 +73,7 @@ width: 8%;
 }
 
 .footer-card{
-    background-color:#2E2E3A;
+    background-color: #4D5560;
     margin-top: 6%;
     text-align: center;
 }

@@ -21,9 +21,13 @@
     font-size: 1.3rem;
     margin: 10px;
 }
-a {
-    font-family: 'Mukta Mahee', sans-serif;
-    color:  #2E6DE2; 
+
+.carousel{
+    margin: -70px;
+}
+
+.carousel_item img{
+    opacity: 90%;
 }
 .mobile_button {
     display: none;
