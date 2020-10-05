@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atlanta Film Series</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link
@@ -14,171 +12,122 @@
     <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<!--This is the responsive navigation to be added to each page-->
-<div class="container-fluid" id="home-container">
-  <section class="navigation">
-      <div class="nav-container">
-        <div class="brand">
-        <a href="index.html"><img class="logo" src="images/logo-color.png"></a>
-      </div>
-      <nav>
-        <div class="nav-mobile">
-          <a id="nav-toggle" href="#!"><span></span></a>
+  <!--Header content start-->
+  <div class="container-fluid" id="home-container">
+    <!--This is the responsive navigation to be added to each page-->
+    <section class="navigation">
+        <div class="nav-container">
+          <div class="brand">
+          <a href="index.html"><img class="logo" src="images/logo-color.png"></a>
         </div>
-        <ul class="nav-list">
-          <li>
-            <a href="#!">Shortsfest</a>
-            <ul class="nav-dropdown">
-              <li><a href="shortsfest-about.html">ATL Shortsfest <br> August 2020</a></li>
-              <li><a href="tickets-shortfest.html">Tickets</i></a></li>
-              <li><a href="shortsfest-schedule.html">Schedule</a></li>
-              <li><a href="shortsfest-archive.html">Archive</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#!">Underground Fest</a>
-            <ul class="nav-dropdown">
-              <li><a href="auff-about.html">AUFF <br> September 2020</a></li>
-              <li><a href="tickets.html">Tickets</a></li>
-              <li><a href="auff-schedule.html">Schedule</a></li>
-              <li><a href="auff-archive.html">Archive</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#!">Horror Fest</a>
-            <ul class="nav-dropdown">
-              <li><a href="horrorfest-about.html">ATL Horror Festival <br> October 2020</a></li>
-              <li><a href="tickets-horrorfest.html">Tickets</a></li>
-              <li><a href="horrorfest-schedule.html">Schedule</a></li>
-              <li><a href="horrorfest-archive.html">Archive</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#!">Docufest</a>
-            <ul class="nav-dropdown">
-              <li><a href="docufest-about.html">ATL Docufest <br> November 2020</a></li>
-              <li><a href="tickets-docufest.html">Tickets</a></li>
-              <li><a href="docufest-schedule.html">Schedule</a></li>
-              <li><a href="docufest-archive.html">Archive</a></li>
-            </ul>
-          </li>
-          <li><a href="submissions.html">Submissions</a></li>
-          </nav>
-        </div>
-  </section>
-  <!--Navigation ends here-->
-  <!--Hero video-->
-  <div class="hero-container">
-    <div class="background-video-content">
-      <h1>The Atlanta Film Series</h1>
-      <p>
-        <ul>
-          <li><strong>Horror Film Festival </strong>October 15 - 17, 2020</li>
-          <li><strong>Docufest</strong> November 5 - 7, 2020</li>
-          <li><strong>Shortsfest</strong> August 20 - 21, 2021</li>
-          <li><strong>Underground Film Festival</strong> TB</li>
-        </ul>
-    </p>
-    </div>
-    <video loop muted autoplay poster="URL/TO/poster.jpg" class="background-video">
-      <source src="images/cover-video.mp4" type="video/mp4">
-    </video>
-  </div>
-  <!--Hero video-->
-</div>
-
-<div class="container-grid">
-           <div class="row">
-                <div class="card col-lg-12 col-md-12 col-sm-12">
-                  <!-- <img class="grid-image" src="images/Screen Shot 2020-09-22 at 11.40.07 AM.png"> -->
-                      <div class="card-body">
-                        <h2 class="card-title">About Atlanta Film Series</h2>
-                        <p class="card-text">The Atlanta Film Series is four separate festivals held annually
-                          <br>
-                        <a href="auff-about.html">Atlanta Underground Film Fest</a> | <a href="shortsfest-about.html">Atlanta Shortsfest</a> | <a href="horrorfest-about">Atlanta Horror Film Fest</a> | <a href="docufest-about">Atlanta Docufest</a>
-                          <br>
-                          Each festival showcases independent feature and short films. These events were designed to spotlight every genre of cinema imaginable. All are welcome. Masks are required. Please bring a chair, pillow, or blanket.
-                      </p>
-                      </div>
-                </div>
-                 <div class="card col-lg-6 col-md-6 col-sm-12" id="horror-homepage">
-                  <div class="card-body">
-                    <h2 class="card-title">Upcoming HorrorFest</h2>
-                    <p class="card-text"><a href="horrorfest-about.html">HorrorFest 2020</a></p>
-                  </div>
-            </div>
-            <div class="row col-12">
-              <div class="card col-lg-6 col-md-6 col-sm-12" id="home-image">
-              </div>
-               <div class="card col-lg-6 col-md-6 col-sm-12">
-                <div class="card-body">
-                  <h2 class="card-title">Contact Us</h2>
-                  <p class="card-text">Want to volunteer? Have questions?</p>
-                  <p class="card-text"> Email us: atlfilmseries@gmail.com</p>
-                </div>
+        <nav>
+          <div class="nav-mobile">
+            <a id="nav-toggle" href="#!"><span></span></a>
           </div>
-   </div>
-
-
-   <div class="footer">
-
-    
-      <div class="footer-card">
-        <div class="footer-card-body">
-          <h5 class="footer-toptext-header">Get the latest</h5>
-          <p class="footer-toptext">Sign up to recieve emails on the latest news for the Atlanta Film Series.</p>
-
-          <form>
-            <div class="row">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Email">
-              </div>
-              <div class="col">
-                <button type="submit" class="btn  signup">Sign Up</button>
-              </div>
-            </div>
-            </form>
-        </div>
+          <ul class="nav-list">
+            <li>
+              <a href="#!">Shortsfest</a>
+              <ul class="nav-dropdown">
+                <li><a href="shortsfest-about.html">ATL Shortsfest <br> August 2020</a></li>
+                <li><a href="tickets-shortfest.html">Tickets</i></a></li>
+                <li><a href="shortsfest-schedule.html">Schedule</a></li>
+                <li><a href="shortsfest-archive.html">Archive</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#!">Underground Fest</a>
+              <ul class="nav-dropdown">
+                <li><a href="auff-about.html">AUFF <br> September 2020</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="auff-schedule.html">Schedule</a></li>
+                <li><a href="auff-archive.html">Archive</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#!">Horror Fest</a>
+              <ul class="nav-dropdown">
+                <li><a href="horrorfest-about.html">ATL Horror Festival <br> October 2020</a></li>
+                <li><a href="tickets-horrorfest.html">Tickets</a></li>
+                <li><a href="horrorfest-schedule.html">Schedule</a></li>
+                <li><a href="horrorfest-archive.html">Archive</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#!">Docufest</a>
+              <ul class="nav-dropdown">
+                <li><a href="docufest-about.html">ATL Docufest <br> November 2020</a></li>
+                <li><a href="tickets-docufest.html">Tickets</a></li>
+                <li><a href="docufest-schedule.html">Schedule</a></li>
+                <li><a href="docufest-archive.html">Archive</a></li>
+              </ul>
+            </li>
+            <li><a href="submissions.html">Submissions</a></li>
+            </nav>
+          </div>
+    </section>
+    <!--Navigation ends here-->
+    <!--Hero video start-->
+    <div class="hero-container">
+      <div class="background-video-content">
+        <h1>The Atlanta Film Series</h1>
+        <p>
+          <ul>
+            <li><strong>Horror Film Festival </strong>October 15 - 17, 2020</li>
+            <li><strong>Docufest</strong> November 5 - 7, 2020</li>
+            <li><strong>Shortsfest</strong> August 20 - 21, 2021</li>
+            <li><strong>Underground Film Festival</strong> TB</li>
+          </ul>
+      </p>
       </div>
-
-   
-    <img class="footer-logo" src="images/logo-white.png">
-          <br>
-
-       <div class="footer-card">
-        <div class="footer-card-body">
-          <!-- <h5 class="card-title">About ATL Film Series</h5> -->
-          <!-- <p class="card-text">The ATL Film Series is four separate festivals held annually: The Atlanta Shortfest, The Atlanta Undergroud Film Festival, The Atlanta Docufest, and The Atlanta Horror Festival.</p> -->
-          
-          
-          <a class="footer-text" href="shortsfest-about.html">Shortsfest August 2020</a>
-          <br>
-          <a class="footer-text" href="auff-about.html">Underground Fest September 2020</a>
-          <br>
-          <a class="footer-text" href="horrorfest-about.html">Horror Film Festival October 2020</a>
-          <br>
-          <a class="footer-text" href="docufest-about.html">Docufest November 2020 Submissions</a>
-          <br>
-          <a class="footer-text" href="submissions.html">Submissions</a>
-          <br>
-        
-        </div>
+      <video loop muted autoplay poster="URL/TO/poster.jpg" class="background-video">
+        <source src="images/cover-video.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!--Hero video end-->
+  </div>
+  <!--Header content end-->
+  <!--Page content start-->
+  <div class="page-grid">
+    <div class="about-container">
+      <div class="about-header">
+        <h2>About the Atlanta Film Series</h2>
       </div>
+      <div class="about-content">
+        <p>Atlanta Film Series is a showcase of independent film packed with four unique film festivals designed to spotlight every genre of cinema imaginable.</p>
+        <br>
+        <p><a href="auff-about.html">Atlanta Underground Film Fest</a> | <a href="shortsfest-about.html">Atlanta Shortsfest</a> | <a href="horrorfest-about.html">Atlanta Horror Fest</a> | <a href="docufest-about.html">Atlanta Docufest</a></p>
+        <br>
+        <p>All are welcome to come celebrate independent film creators! Masks are required. Please bring a blanket, chair or pillows to sit on!</p>
+      </div>
+    </div>
+    <div class="scrolling-wrapper">
+      <div class="card">
+        <img class="card-image" src="images/the-new-york-public-library-rXGRbF7TquQ-unsplash.jpg">
+      </div>
+      <div class="card">
+        <img class="card-image" src="images/the-new-york-public-library-rXGRbF7TquQ-unsplash.jpg">
+      </div>
+      <div class="card">
+        <img class="card-image" src="images/the-new-york-public-library-rXGRbF7TquQ-unsplash.jpg">
+      </div>
+      <div class="card">
+        <img class="card-image" src="images/the-new-york-public-library-rXGRbF7TquQ-unsplash.jpg">
+      </div>
+      <div class="card">
+        <img class="card-image" src="images/the-new-york-public-library-rXGRbF7TquQ-unsplash.jpg">
+      </div>
+      <div class="card">
+        <img class="card-image" src="images/the-new-york-public-library-rXGRbF7TquQ-unsplash.jpg">
+      </div>
+    </div>
 
-
-      
-   </div>
-
-
-
-    <!-- Body content ends here -->
+  </div>
 
       <!--JS Scripts-->
       <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script src="js/afs.js"></script>
 </body>
 </html>
