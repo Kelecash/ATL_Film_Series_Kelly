@@ -25,7 +25,6 @@
 .carousel{
     margin: -70px;
 }
-
 .carousel_item img{
     opacity: 90%;
 }
@@ -39,7 +38,6 @@
     background-color: #C4C4C4;
 }
 .movie_block {  
-
     display: inline-flex;
     flex-direction: row;
     width: 100%;
